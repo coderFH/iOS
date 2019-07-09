@@ -27,6 +27,8 @@
 		7F1D7C2A22CF1F9D00317C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D7C2922CF1F9D00317C1E /* Assets.xcassets */; };
 		7F1D7C2D22CF1F9D00317C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D7C2B22CF1F9D00317C1E /* LaunchScreen.storyboard */; };
 		7F1D7C3022CF1F9D00317C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7C2F22CF1F9D00317C1E /* main.m */; };
+		7F1D984E22D432C00033685F /* DragerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D984D22D432C00033685F /* DragerViewController.m */; };
+		7F1D985122D433660033685F /* FHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D985022D433660033685F /* FHTestViewController.m */; };
 		7F4FBE0C22D2D890001FC8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */; };
 		7F4FBE0F22D2D890001FC8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0E22D2D890001FC8B0 /* ViewController.m */; };
 		7F4FBE1222D2D890001FC8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FBE1022D2D890001FC8B0 /* Main.storyboard */; };
@@ -91,7 +93,6 @@
 		7FCD2BB122D32496000F6513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BAF22D32496000F6513 /* LaunchScreen.storyboard */; };
 		7FCD2BB422D32496000F6513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BB322D32496000F6513 /* main.m */; };
 		7FCD2BC022D32872000F6513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BBF22D32872000F6513 /* AppDelegate.m */; };
-		7FCD2BC322D32872000F6513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC222D32872000F6513 /* ViewController.m */; };
 		7FCD2BC622D32872000F6513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC422D32872000F6513 /* Main.storyboard */; };
 		7FCD2BC822D32872000F6513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC722D32872000F6513 /* Assets.xcassets */; };
 		7FCD2BCB22D32872000F6513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC922D32872000F6513 /* LaunchScreen.storyboard */; };
@@ -133,6 +134,10 @@
 		7F1D7C2C22CF1F9D00317C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1D7C2E22CF1F9D00317C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F1D7C2F22CF1F9D00317C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1D984C22D432C00033685F /* DragerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragerViewController.h; sourceTree = "<group>"; };
+		7F1D984D22D432C00033685F /* DragerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragerViewController.m; sourceTree = "<group>"; };
+		7F1D984F22D433660033685F /* FHTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTestViewController.h; sourceTree = "<group>"; };
+		7F1D985022D433660033685F /* FHTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTestViewController.m; sourceTree = "<group>"; };
 		7F4FBE0822D2D890001FC8B0 /* 04-事件传递演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-事件传递演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4FBE0A22D2D890001FC8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -248,8 +253,6 @@
 		7FCD2BBC22D32871000F6513 /* 11-抽屉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11-抽屉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCD2BBE22D32872000F6513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FCD2BBF22D32872000F6513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7FCD2BC122D32872000F6513 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7FCD2BC222D32872000F6513 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7FCD2BC522D32872000F6513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FCD2BC722D32872000F6513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FCD2BCA22D32872000F6513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -585,8 +588,10 @@
 			children = (
 				7FCD2BBE22D32872000F6513 /* AppDelegate.h */,
 				7FCD2BBF22D32872000F6513 /* AppDelegate.m */,
-				7FCD2BC122D32872000F6513 /* ViewController.h */,
-				7FCD2BC222D32872000F6513 /* ViewController.m */,
+				7F1D984C22D432C00033685F /* DragerViewController.h */,
+				7F1D984D22D432C00033685F /* DragerViewController.m */,
+				7F1D984F22D433660033685F /* FHTestViewController.h */,
+				7F1D985022D433660033685F /* FHTestViewController.m */,
 				7FCD2BC422D32872000F6513 /* Main.storyboard */,
 				7FCD2BC722D32872000F6513 /* Assets.xcassets */,
 				7FCD2BC922D32872000F6513 /* LaunchScreen.storyboard */,
@@ -1099,7 +1104,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCD2BC322D32872000F6513 /* ViewController.m in Sources */,
+				7F1D984E22D432C00033685F /* DragerViewController.m in Sources */,
+				7F1D985122D433660033685F /* FHTestViewController.m in Sources */,
 				7FCD2BCE22D32872000F6513 /* main.m in Sources */,
 				7FCD2BC022D32872000F6513 /* AppDelegate.m in Sources */,
 			);
