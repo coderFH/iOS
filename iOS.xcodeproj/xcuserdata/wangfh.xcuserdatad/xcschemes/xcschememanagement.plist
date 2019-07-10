@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>12-Quartz2D-基本路径绘制.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
