@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3oU-lI-lx4" customClass="DrawView">
+                                <rect key="frame" x="10" y="198" width="394" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anY-31-fuV">
+                                        <rect key="frame" x="197" y="150" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="anY-31-fuV" firstAttribute="centerY" secondItem="3oU-lI-lx4" secondAttribute="centerY" id="Jge-vW-XSW"/>
+                                    <constraint firstItem="anY-31-fuV" firstAttribute="centerX" secondItem="3oU-lI-lx4" secondAttribute="centerX" id="dHY-A2-vW1"/>
+                                    <constraint firstAttribute="height" constant="300" id="oEd-1b-j5V"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0bx-dZ-Gxh">
+                                <rect key="frame" x="8" y="533" width="398" height="31"/>
+                                <connections>
+                                    <action selector="sliderScroll:" destination="BYZ-38-t0r" eventType="valueChanged" id="ppQ-vO-aOC"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0bx-dZ-Gxh" secondAttribute="trailing" constant="10" id="6X5-Nb-h6H"/>
+                            <constraint firstItem="3oU-lI-lx4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GFN-sf-uUS"/>
+                            <constraint firstItem="0bx-dZ-Gxh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="JtN-gf-VlB"/>
+                            <constraint firstItem="3oU-lI-lx4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="L9M-tO-3GI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3oU-lI-lx4" secondAttribute="trailing" constant="10" id="lPm-9t-KWS"/>
+                            <constraint firstItem="0bx-dZ-Gxh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="o9H-Gd-FLf"/>
+                            <constraint firstItem="3oU-lI-lx4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="qvW-Ko-J5w"/>
+                            <constraint firstItem="0bx-dZ-Gxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sPQ-aZ-rqB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="3oU-lI-lx4" id="1nW-kY-J02"/>
+                        <outlet property="valueLabel" destination="anY-31-fuV" id="zaa-6F-PWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -93,6 +93,13 @@
 		7F8EEF8722D579DF0049FEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8EEF8522D579DF0049FEA8 /* LaunchScreen.storyboard */; };
 		7F8EEF8A22D579DF0049FEA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EEF8922D579DF0049FEA8 /* main.m */; };
 		7F8EEF9022D57A260049FEA8 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EEF8F22D57A260049FEA8 /* DrawView.m */; };
+		7F91734522D6CF88006CB18C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91734422D6CF88006CB18C /* AppDelegate.m */; };
+		7F91734822D6CF88006CB18C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91734722D6CF88006CB18C /* ViewController.m */; };
+		7F91734B22D6CF88006CB18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F91734922D6CF88006CB18C /* Main.storyboard */; };
+		7F91734D22D6CF89006CB18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F91734C22D6CF89006CB18C /* Assets.xcassets */; };
+		7F91735022D6CF89006CB18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F91734E22D6CF89006CB18C /* LaunchScreen.storyboard */; };
+		7F91735322D6CF89006CB18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91735222D6CF89006CB18C /* main.m */; };
+		7F91735922D6D02E006CB18C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91735822D6D02E006CB18C /* DrawView.m */; };
 		7FCD2BA622D32495000F6513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BA522D32495000F6513 /* AppDelegate.m */; };
 		7FCD2BA922D32495000F6513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BA822D32495000F6513 /* ViewController.m */; };
 		7FCD2BAC22D32495000F6513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BAA22D32495000F6513 /* Main.storyboard */; };
@@ -104,6 +111,48 @@
 		7FCD2BC822D32872000F6513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC722D32872000F6513 /* Assets.xcassets */; };
 		7FCD2BCB22D32872000F6513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCD2BC922D32872000F6513 /* LaunchScreen.storyboard */; };
 		7FCD2BCE22D32872000F6513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD2BCD22D32872000F6513 /* main.m */; };
+		7FEF819722D6D7C800B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF819622D6D7C800B20A94 /* AppDelegate.m */; };
+		7FEF819A22D6D7C800B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF819922D6D7C800B20A94 /* ViewController.m */; };
+		7FEF819D22D6D7C800B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF819B22D6D7C800B20A94 /* Main.storyboard */; };
+		7FEF819F22D6D7C900B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF819E22D6D7C900B20A94 /* Assets.xcassets */; };
+		7FEF81A222D6D7C900B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81A022D6D7C900B20A94 /* LaunchScreen.storyboard */; };
+		7FEF81A522D6D7C900B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81A422D6D7C900B20A94 /* main.m */; };
+		7FEF81AB22D6D84400B20A94 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81AA22D6D84400B20A94 /* PieView.m */; };
+		7FEF81B422D6DCD500B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81B322D6DCD500B20A94 /* AppDelegate.m */; };
+		7FEF81B722D6DCD500B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81B622D6DCD500B20A94 /* ViewController.m */; };
+		7FEF81BA22D6DCD500B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81B822D6DCD500B20A94 /* Main.storyboard */; };
+		7FEF81BC22D6DCD500B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81BB22D6DCD500B20A94 /* Assets.xcassets */; };
+		7FEF81BF22D6DCD500B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81BD22D6DCD500B20A94 /* LaunchScreen.storyboard */; };
+		7FEF81C222D6DCD500B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81C122D6DCD500B20A94 /* main.m */; };
+		7FEF81C822D6DE0000B20A94 /* ColumnarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81C722D6DE0000B20A94 /* ColumnarView.m */; };
+		7FEF81D122D6DFE100B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81D022D6DFE100B20A94 /* AppDelegate.m */; };
+		7FEF81D422D6DFE100B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81D322D6DFE100B20A94 /* ViewController.m */; };
+		7FEF81D722D6DFE100B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81D522D6DFE100B20A94 /* Main.storyboard */; };
+		7FEF81D922D6DFE100B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81D822D6DFE100B20A94 /* Assets.xcassets */; };
+		7FEF81DC22D6DFE100B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81DA22D6DFE100B20A94 /* LaunchScreen.storyboard */; };
+		7FEF81DF22D6DFE100B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81DE22D6DFE100B20A94 /* main.m */; };
+		7FEF81E522D6E00700B20A94 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81E422D6E00700B20A94 /* DrawView.m */; };
+		7FEF81EE22D6E51700B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81ED22D6E51700B20A94 /* AppDelegate.m */; };
+		7FEF81F122D6E51700B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81F022D6E51700B20A94 /* ViewController.m */; };
+		7FEF81F422D6E51700B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81F222D6E51700B20A94 /* Main.storyboard */; };
+		7FEF81F622D6E51800B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81F522D6E51800B20A94 /* Assets.xcassets */; };
+		7FEF81F922D6E51800B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF81F722D6E51800B20A94 /* LaunchScreen.storyboard */; };
+		7FEF81FC22D6E51800B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF81FB22D6E51800B20A94 /* main.m */; };
+		7FEF820222D6E56300B20A94 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF820122D6E56300B20A94 /* SnowView.m */; };
+		7FEF820B22D6E7FE00B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF820A22D6E7FE00B20A94 /* AppDelegate.m */; };
+		7FEF820E22D6E7FE00B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF820D22D6E7FE00B20A94 /* ViewController.m */; };
+		7FEF821122D6E7FE00B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF820F22D6E7FE00B20A94 /* Main.storyboard */; };
+		7FEF821322D6E7FE00B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF821222D6E7FE00B20A94 /* Assets.xcassets */; };
+		7FEF821622D6E7FE00B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF821422D6E7FE00B20A94 /* LaunchScreen.storyboard */; };
+		7FEF821922D6E7FE00B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF821822D6E7FE00B20A94 /* main.m */; };
+		7FEF821F22D6E82500B20A94 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF821E22D6E82500B20A94 /* DrawView.m */; };
+		7FEF822822D6E9F500B20A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF822722D6E9F500B20A94 /* AppDelegate.m */; };
+		7FEF822B22D6E9F500B20A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF822A22D6E9F500B20A94 /* ViewController.m */; };
+		7FEF822E22D6E9F500B20A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF822C22D6E9F500B20A94 /* Main.storyboard */; };
+		7FEF823022D6E9F500B20A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF822F22D6E9F500B20A94 /* Assets.xcassets */; };
+		7FEF823322D6E9F500B20A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF823122D6E9F500B20A94 /* LaunchScreen.storyboard */; };
+		7FEF823622D6E9F500B20A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF823522D6E9F500B20A94 /* main.m */; };
+		7FEF823C22D6EAA700B20A94 /* VcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF823B22D6EAA700B20A94 /* VcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -259,6 +308,18 @@
 		7F8EEF8922D579DF0049FEA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F8EEF8E22D57A260049FEA8 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		7F8EEF8F22D57A260049FEA8 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		7F91734122D6CF88006CB18C /* 13-Quartz2D-下载进度案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-Quartz2D-下载进度案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F91734322D6CF88006CB18C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F91734422D6CF88006CB18C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F91734622D6CF88006CB18C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F91734722D6CF88006CB18C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F91734A22D6CF88006CB18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F91734C22D6CF89006CB18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F91734F22D6CF89006CB18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F91735122D6CF89006CB18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F91735222D6CF89006CB18C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F91735722D6D02E006CB18C /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7F91735822D6D02E006CB18C /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		7FCD2BA222D32495000F6513 /* 10-手势识别(平移,旋转,缩放).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-手势识别(平移,旋转,缩放).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCD2BA422D32495000F6513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FCD2BA522D32495000F6513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -277,6 +338,78 @@
 		7FCD2BCA22D32872000F6513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FCD2BCC22D32872000F6513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FCD2BCD22D32872000F6513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF819322D6D7C800B20A94 /* 14-Quartz2D-饼图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-Quartz2D-饼图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF819522D6D7C800B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF819622D6D7C800B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF819822D6D7C800B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF819922D6D7C800B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF819C22D6D7C800B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF819E22D6D7C900B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF81A122D6D7C900B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF81A322D6D7C900B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF81A422D6D7C900B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF81A922D6D84400B20A94 /* PieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		7FEF81AA22D6D84400B20A94 /* PieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		7FEF81B022D6DCD500B20A94 /* 15-Quartz2D-柱状图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "15-Quartz2D-柱状图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF81B222D6DCD500B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF81B322D6DCD500B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF81B522D6DCD500B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF81B622D6DCD500B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF81B922D6DCD500B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF81BB22D6DCD500B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF81BE22D6DCD500B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF81C022D6DCD500B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF81C122D6DCD500B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF81C622D6DE0000B20A94 /* ColumnarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColumnarView.h; sourceTree = "<group>"; };
+		7FEF81C722D6DE0000B20A94 /* ColumnarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColumnarView.m; sourceTree = "<group>"; };
+		7FEF81CD22D6DFE100B20A94 /* 16-Quartz2D-绘制文字和图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-Quartz2D-绘制文字和图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF81CF22D6DFE100B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF81D022D6DFE100B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF81D222D6DFE100B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF81D322D6DFE100B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF81D622D6DFE100B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF81D822D6DFE100B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF81DB22D6DFE100B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF81DD22D6DFE100B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF81DE22D6DFE100B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF81E322D6E00700B20A94 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7FEF81E422D6E00700B20A94 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		7FEF81EA22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "17-CADisPlayLink-下雪动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF81EC22D6E51700B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF81ED22D6E51700B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF81EF22D6E51700B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF81F022D6E51700B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF81F322D6E51700B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF81F522D6E51800B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF81F822D6E51800B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF81FA22D6E51800B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF81FB22D6E51800B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF820022D6E56300B20A94 /* SnowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		7FEF820122D6E56300B20A94 /* SnowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		7FEF820722D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "18-Quartz2D-上下文的状态.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF820922D6E7FE00B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF820A22D6E7FE00B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF820C22D6E7FE00B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF820D22D6E7FE00B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF821022D6E7FE00B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF821222D6E7FE00B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF821522D6E7FE00B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF821722D6E7FE00B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF821822D6E7FE00B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF821D22D6E82500B20A94 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7FEF821E22D6E82500B20A94 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		7FEF822422D6E9F400B20A94 /* 19-Quartz2D-形变操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "19-Quartz2D-形变操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEF822622D6E9F500B20A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEF822722D6E9F500B20A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEF822922D6E9F500B20A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FEF822A22D6E9F500B20A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FEF822D22D6E9F500B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEF822F22D6E9F500B20A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEF823222D6E9F500B20A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEF823422D6E9F500B20A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEF823522D6E9F500B20A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEF823A22D6EAA700B20A94 /* VcView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcView.h; sourceTree = "<group>"; };
+		7FEF823B22D6EAA700B20A94 /* VcView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,6 +483,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F91733E22D6CF88006CB18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FCD2B9F22D32495000F6513 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +498,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7FCD2BB922D32871000F6513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF819022D6D7C800B20A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81AD22D6DCD500B20A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81CA22D6DFE000B20A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81E722D6E51700B20A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF820422D6E7FD00B20A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF822122D6E9F400B20A94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,6 +564,13 @@
 				7FCD2BA322D32495000F6513 /* 10-手势识别(平移,旋转,缩放) */,
 				7FCD2BBD22D32872000F6513 /* 11-抽屉效果 */,
 				7F8EEF7922D579DE0049FEA8 /* 12-Quartz2D-基本路径绘制 */,
+				7F91734222D6CF88006CB18C /* 13-Quartz2D-下载进度案例 */,
+				7FEF819422D6D7C800B20A94 /* 14-Quartz2D-饼图 */,
+				7FEF81B122D6DCD500B20A94 /* 15-Quartz2D-柱状图 */,
+				7FEF81CE22D6DFE100B20A94 /* 16-Quartz2D-绘制文字和图片 */,
+				7FEF81EB22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */,
+				7FEF820822D6E7FE00B20A94 /* 18-Quartz2D-上下文的状态 */,
+				7FEF822522D6E9F500B20A94 /* 19-Quartz2D-形变操作 */,
 				7F1D7BC422CEF6C300317C1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -401,6 +590,13 @@
 				7FCD2BA222D32495000F6513 /* 10-手势识别(平移,旋转,缩放).app */,
 				7FCD2BBC22D32871000F6513 /* 11-抽屉效果.app */,
 				7F8EEF7822D579DD0049FEA8 /* 12-Quartz2D-基本路径绘制.app */,
+				7F91734122D6CF88006CB18C /* 13-Quartz2D-下载进度案例.app */,
+				7FEF819322D6D7C800B20A94 /* 14-Quartz2D-饼图.app */,
+				7FEF81B022D6DCD500B20A94 /* 15-Quartz2D-柱状图.app */,
+				7FEF81CD22D6DFE100B20A94 /* 16-Quartz2D-绘制文字和图片.app */,
+				7FEF81EA22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画.app */,
+				7FEF820722D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态.app */,
+				7FEF822422D6E9F400B20A94 /* 19-Quartz2D-形变操作.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -613,6 +809,24 @@
 			path = "12-Quartz2D-基本路径绘制";
 			sourceTree = "<group>";
 		};
+		7F91734222D6CF88006CB18C /* 13-Quartz2D-下载进度案例 */ = {
+			isa = PBXGroup;
+			children = (
+				7F91734322D6CF88006CB18C /* AppDelegate.h */,
+				7F91734422D6CF88006CB18C /* AppDelegate.m */,
+				7F91735722D6D02E006CB18C /* DrawView.h */,
+				7F91735822D6D02E006CB18C /* DrawView.m */,
+				7F91734622D6CF88006CB18C /* ViewController.h */,
+				7F91734722D6CF88006CB18C /* ViewController.m */,
+				7F91734922D6CF88006CB18C /* Main.storyboard */,
+				7F91734C22D6CF89006CB18C /* Assets.xcassets */,
+				7F91734E22D6CF89006CB18C /* LaunchScreen.storyboard */,
+				7F91735122D6CF89006CB18C /* Info.plist */,
+				7F91735222D6CF89006CB18C /* main.m */,
+			);
+			path = "13-Quartz2D-下载进度案例";
+			sourceTree = "<group>";
+		};
 		7FCD2BA322D32495000F6513 /* 10-手势识别(平移,旋转,缩放) */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,6 +859,114 @@
 				7FCD2BCD22D32872000F6513 /* main.m */,
 			);
 			path = "11-抽屉效果";
+			sourceTree = "<group>";
+		};
+		7FEF819422D6D7C800B20A94 /* 14-Quartz2D-饼图 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF819522D6D7C800B20A94 /* AppDelegate.h */,
+				7FEF819622D6D7C800B20A94 /* AppDelegate.m */,
+				7FEF81A922D6D84400B20A94 /* PieView.h */,
+				7FEF81AA22D6D84400B20A94 /* PieView.m */,
+				7FEF819822D6D7C800B20A94 /* ViewController.h */,
+				7FEF819922D6D7C800B20A94 /* ViewController.m */,
+				7FEF819B22D6D7C800B20A94 /* Main.storyboard */,
+				7FEF819E22D6D7C900B20A94 /* Assets.xcassets */,
+				7FEF81A022D6D7C900B20A94 /* LaunchScreen.storyboard */,
+				7FEF81A322D6D7C900B20A94 /* Info.plist */,
+				7FEF81A422D6D7C900B20A94 /* main.m */,
+			);
+			path = "14-Quartz2D-饼图";
+			sourceTree = "<group>";
+		};
+		7FEF81B122D6DCD500B20A94 /* 15-Quartz2D-柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF81B222D6DCD500B20A94 /* AppDelegate.h */,
+				7FEF81B322D6DCD500B20A94 /* AppDelegate.m */,
+				7FEF81C622D6DE0000B20A94 /* ColumnarView.h */,
+				7FEF81C722D6DE0000B20A94 /* ColumnarView.m */,
+				7FEF81B522D6DCD500B20A94 /* ViewController.h */,
+				7FEF81B622D6DCD500B20A94 /* ViewController.m */,
+				7FEF81B822D6DCD500B20A94 /* Main.storyboard */,
+				7FEF81BB22D6DCD500B20A94 /* Assets.xcassets */,
+				7FEF81BD22D6DCD500B20A94 /* LaunchScreen.storyboard */,
+				7FEF81C022D6DCD500B20A94 /* Info.plist */,
+				7FEF81C122D6DCD500B20A94 /* main.m */,
+			);
+			path = "15-Quartz2D-柱状图";
+			sourceTree = "<group>";
+		};
+		7FEF81CE22D6DFE100B20A94 /* 16-Quartz2D-绘制文字和图片 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF81CF22D6DFE100B20A94 /* AppDelegate.h */,
+				7FEF81D022D6DFE100B20A94 /* AppDelegate.m */,
+				7FEF81E322D6E00700B20A94 /* DrawView.h */,
+				7FEF81E422D6E00700B20A94 /* DrawView.m */,
+				7FEF81D222D6DFE100B20A94 /* ViewController.h */,
+				7FEF81D322D6DFE100B20A94 /* ViewController.m */,
+				7FEF81D522D6DFE100B20A94 /* Main.storyboard */,
+				7FEF81D822D6DFE100B20A94 /* Assets.xcassets */,
+				7FEF81DA22D6DFE100B20A94 /* LaunchScreen.storyboard */,
+				7FEF81DD22D6DFE100B20A94 /* Info.plist */,
+				7FEF81DE22D6DFE100B20A94 /* main.m */,
+			);
+			path = "16-Quartz2D-绘制文字和图片";
+			sourceTree = "<group>";
+		};
+		7FEF81EB22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF81EC22D6E51700B20A94 /* AppDelegate.h */,
+				7FEF81ED22D6E51700B20A94 /* AppDelegate.m */,
+				7FEF820022D6E56300B20A94 /* SnowView.h */,
+				7FEF820122D6E56300B20A94 /* SnowView.m */,
+				7FEF81EF22D6E51700B20A94 /* ViewController.h */,
+				7FEF81F022D6E51700B20A94 /* ViewController.m */,
+				7FEF81F222D6E51700B20A94 /* Main.storyboard */,
+				7FEF81F522D6E51800B20A94 /* Assets.xcassets */,
+				7FEF81F722D6E51800B20A94 /* LaunchScreen.storyboard */,
+				7FEF81FA22D6E51800B20A94 /* Info.plist */,
+				7FEF81FB22D6E51800B20A94 /* main.m */,
+			);
+			path = "17-CADisPlayLink-下雪动画";
+			sourceTree = "<group>";
+		};
+		7FEF820822D6E7FE00B20A94 /* 18-Quartz2D-上下文的状态 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF820922D6E7FE00B20A94 /* AppDelegate.h */,
+				7FEF820A22D6E7FE00B20A94 /* AppDelegate.m */,
+				7FEF821D22D6E82500B20A94 /* DrawView.h */,
+				7FEF821E22D6E82500B20A94 /* DrawView.m */,
+				7FEF820C22D6E7FE00B20A94 /* ViewController.h */,
+				7FEF820D22D6E7FE00B20A94 /* ViewController.m */,
+				7FEF820F22D6E7FE00B20A94 /* Main.storyboard */,
+				7FEF821222D6E7FE00B20A94 /* Assets.xcassets */,
+				7FEF821422D6E7FE00B20A94 /* LaunchScreen.storyboard */,
+				7FEF821722D6E7FE00B20A94 /* Info.plist */,
+				7FEF821822D6E7FE00B20A94 /* main.m */,
+			);
+			path = "18-Quartz2D-上下文的状态";
+			sourceTree = "<group>";
+		};
+		7FEF822522D6E9F500B20A94 /* 19-Quartz2D-形变操作 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF822622D6E9F500B20A94 /* AppDelegate.h */,
+				7FEF822722D6E9F500B20A94 /* AppDelegate.m */,
+				7FEF823A22D6EAA700B20A94 /* VcView.h */,
+				7FEF823B22D6EAA700B20A94 /* VcView.m */,
+				7FEF822922D6E9F500B20A94 /* ViewController.h */,
+				7FEF822A22D6E9F500B20A94 /* ViewController.m */,
+				7FEF822C22D6E9F500B20A94 /* Main.storyboard */,
+				7FEF822F22D6E9F500B20A94 /* Assets.xcassets */,
+				7FEF823122D6E9F500B20A94 /* LaunchScreen.storyboard */,
+				7FEF823422D6E9F500B20A94 /* Info.plist */,
+				7FEF823522D6E9F500B20A94 /* main.m */,
+			);
+			path = "19-Quartz2D-形变操作";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -820,6 +1142,23 @@
 			productReference = 7F8EEF7822D579DD0049FEA8 /* 12-Quartz2D-基本路径绘制.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7F91734022D6CF88006CB18C /* 13-Quartz2D-下载进度案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F91735422D6CF89006CB18C /* Build configuration list for PBXNativeTarget "13-Quartz2D-下载进度案例" */;
+			buildPhases = (
+				7F91733D22D6CF88006CB18C /* Sources */,
+				7F91733E22D6CF88006CB18C /* Frameworks */,
+				7F91733F22D6CF88006CB18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-Quartz2D-下载进度案例";
+			productName = "13-Quartz2D-下载进度案例";
+			productReference = 7F91734122D6CF88006CB18C /* 13-Quartz2D-下载进度案例.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7FCD2BA122D32495000F6513 /* 10-手势识别(平移,旋转,缩放) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FCD2BB722D32496000F6513 /* Build configuration list for PBXNativeTarget "10-手势识别(平移,旋转,缩放)" */;
@@ -854,12 +1193,115 @@
 			productReference = 7FCD2BBC22D32871000F6513 /* 11-抽屉效果.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7FEF819222D6D7C800B20A94 /* 14-Quartz2D-饼图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF81A822D6D7C900B20A94 /* Build configuration list for PBXNativeTarget "14-Quartz2D-饼图" */;
+			buildPhases = (
+				7FEF818F22D6D7C800B20A94 /* Sources */,
+				7FEF819022D6D7C800B20A94 /* Frameworks */,
+				7FEF819122D6D7C800B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-Quartz2D-饼图";
+			productName = "14-Quartz2D-饼图";
+			productReference = 7FEF819322D6D7C800B20A94 /* 14-Quartz2D-饼图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEF81AF22D6DCD500B20A94 /* 15-Quartz2D-柱状图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF81C322D6DCD500B20A94 /* Build configuration list for PBXNativeTarget "15-Quartz2D-柱状图" */;
+			buildPhases = (
+				7FEF81AC22D6DCD500B20A94 /* Sources */,
+				7FEF81AD22D6DCD500B20A94 /* Frameworks */,
+				7FEF81AE22D6DCD500B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-Quartz2D-柱状图";
+			productName = "15-Quartz2D-柱状图";
+			productReference = 7FEF81B022D6DCD500B20A94 /* 15-Quartz2D-柱状图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEF81CC22D6DFE000B20A94 /* 16-Quartz2D-绘制文字和图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF81E022D6DFE100B20A94 /* Build configuration list for PBXNativeTarget "16-Quartz2D-绘制文字和图片" */;
+			buildPhases = (
+				7FEF81C922D6DFE000B20A94 /* Sources */,
+				7FEF81CA22D6DFE000B20A94 /* Frameworks */,
+				7FEF81CB22D6DFE000B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-Quartz2D-绘制文字和图片";
+			productName = "16-Quartz2D-绘制文字和图片";
+			productReference = 7FEF81CD22D6DFE100B20A94 /* 16-Quartz2D-绘制文字和图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEF81E922D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF81FD22D6E51800B20A94 /* Build configuration list for PBXNativeTarget "17-CADisPlayLink-下雪动画" */;
+			buildPhases = (
+				7FEF81E622D6E51700B20A94 /* Sources */,
+				7FEF81E722D6E51700B20A94 /* Frameworks */,
+				7FEF81E822D6E51700B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17-CADisPlayLink-下雪动画";
+			productName = "17-CADisPlayLink-下雪动画";
+			productReference = 7FEF81EA22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEF820622D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF821A22D6E7FE00B20A94 /* Build configuration list for PBXNativeTarget "18-Quartz2D-上下文的状态" */;
+			buildPhases = (
+				7FEF820322D6E7FD00B20A94 /* Sources */,
+				7FEF820422D6E7FD00B20A94 /* Frameworks */,
+				7FEF820522D6E7FD00B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-Quartz2D-上下文的状态";
+			productName = "18-Quartz2D-上下文的状态";
+			productReference = 7FEF820722D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEF822322D6E9F400B20A94 /* 19-Quartz2D-形变操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF823722D6E9F500B20A94 /* Build configuration list for PBXNativeTarget "19-Quartz2D-形变操作" */;
+			buildPhases = (
+				7FEF822022D6E9F400B20A94 /* Sources */,
+				7FEF822122D6E9F400B20A94 /* Frameworks */,
+				7FEF822222D6E9F400B20A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-Quartz2D-形变操作";
+			productName = "19-Quartz2D-形变操作";
+			productReference = 7FEF822422D6E9F400B20A94 /* 19-Quartz2D-形变操作.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7F1D7BBB22CEF6C300317C1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "wa\b\bngfh";
 				TargetAttributes = {
@@ -893,10 +1335,31 @@
 					7F8EEF7722D579DD0049FEA8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F91734022D6CF88006CB18C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7FCD2BA122D32495000F6513 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					7FCD2BBB22D32871000F6513 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF819222D6D7C800B20A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF81AF22D6DCD500B20A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF81CC22D6DFE000B20A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF81E922D6E51700B20A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF820622D6E7FD00B20A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7FEF822322D6E9F400B20A94 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -926,6 +1389,13 @@
 				7FCD2BA122D32495000F6513 /* 10-手势识别(平移,旋转,缩放) */,
 				7FCD2BBB22D32871000F6513 /* 11-抽屉效果 */,
 				7F8EEF7722D579DD0049FEA8 /* 12-Quartz2D-基本路径绘制 */,
+				7F91734022D6CF88006CB18C /* 13-Quartz2D-下载进度案例 */,
+				7FEF819222D6D7C800B20A94 /* 14-Quartz2D-饼图 */,
+				7FEF81AF22D6DCD500B20A94 /* 15-Quartz2D-柱状图 */,
+				7FEF81CC22D6DFE000B20A94 /* 16-Quartz2D-绘制文字和图片 */,
+				7FEF81E922D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */,
+				7FEF820622D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态 */,
+				7FEF822322D6E9F400B20A94 /* 19-Quartz2D-形变操作 */,
 			);
 		};
 /* End PBXProject section */
@@ -1031,6 +1501,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F91733F22D6CF88006CB18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F91735022D6CF89006CB18C /* LaunchScreen.storyboard in Resources */,
+				7F91734D22D6CF89006CB18C /* Assets.xcassets in Resources */,
+				7F91734B22D6CF88006CB18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FCD2BA022D32495000F6513 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1048,6 +1528,66 @@
 				7FCD2BCB22D32872000F6513 /* LaunchScreen.storyboard in Resources */,
 				7FCD2BC822D32872000F6513 /* Assets.xcassets in Resources */,
 				7FCD2BC622D32872000F6513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF819122D6D7C800B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81A222D6D7C900B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF819F22D6D7C900B20A94 /* Assets.xcassets in Resources */,
+				7FEF819D22D6D7C800B20A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81AE22D6DCD500B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81BF22D6DCD500B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF81BC22D6DCD500B20A94 /* Assets.xcassets in Resources */,
+				7FEF81BA22D6DCD500B20A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81CB22D6DFE000B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81DC22D6DFE100B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF81D922D6DFE100B20A94 /* Assets.xcassets in Resources */,
+				7FEF81D722D6DFE100B20A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81E822D6E51700B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81F922D6E51800B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF81F622D6E51800B20A94 /* Assets.xcassets in Resources */,
+				7FEF81F422D6E51700B20A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF820522D6E7FD00B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF821622D6E7FE00B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF821322D6E7FE00B20A94 /* Assets.xcassets in Resources */,
+				7FEF821122D6E7FE00B20A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF822222D6E9F400B20A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF823322D6E9F500B20A94 /* LaunchScreen.storyboard in Resources */,
+				7FEF823022D6E9F500B20A94 /* Assets.xcassets in Resources */,
+				7FEF822E22D6E9F500B20A94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,6 +1718,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F91733D22D6CF88006CB18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F91734822D6CF88006CB18C /* ViewController.m in Sources */,
+				7F91735322D6CF89006CB18C /* main.m in Sources */,
+				7F91735922D6D02E006CB18C /* DrawView.m in Sources */,
+				7F91734522D6CF88006CB18C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FCD2B9E22D32495000F6513 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1196,6 +1747,72 @@
 				7F1D985122D433660033685F /* FHTestViewController.m in Sources */,
 				7FCD2BCE22D32872000F6513 /* main.m in Sources */,
 				7FCD2BC022D32872000F6513 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF818F22D6D7C800B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF819A22D6D7C800B20A94 /* ViewController.m in Sources */,
+				7FEF81AB22D6D84400B20A94 /* PieView.m in Sources */,
+				7FEF81A522D6D7C900B20A94 /* main.m in Sources */,
+				7FEF819722D6D7C800B20A94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81AC22D6DCD500B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81B722D6DCD500B20A94 /* ViewController.m in Sources */,
+				7FEF81C822D6DE0000B20A94 /* ColumnarView.m in Sources */,
+				7FEF81C222D6DCD500B20A94 /* main.m in Sources */,
+				7FEF81B422D6DCD500B20A94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81C922D6DFE000B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81D422D6DFE100B20A94 /* ViewController.m in Sources */,
+				7FEF81DF22D6DFE100B20A94 /* main.m in Sources */,
+				7FEF81E522D6E00700B20A94 /* DrawView.m in Sources */,
+				7FEF81D122D6DFE100B20A94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF81E622D6E51700B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF81F122D6E51700B20A94 /* ViewController.m in Sources */,
+				7FEF81FC22D6E51800B20A94 /* main.m in Sources */,
+				7FEF81EE22D6E51700B20A94 /* AppDelegate.m in Sources */,
+				7FEF820222D6E56300B20A94 /* SnowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF820322D6E7FD00B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF820E22D6E7FE00B20A94 /* ViewController.m in Sources */,
+				7FEF821922D6E7FE00B20A94 /* main.m in Sources */,
+				7FEF821F22D6E82500B20A94 /* DrawView.m in Sources */,
+				7FEF820B22D6E7FE00B20A94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEF822022D6E9F400B20A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF822B22D6E9F500B20A94 /* ViewController.m in Sources */,
+				7FEF823622D6E9F500B20A94 /* main.m in Sources */,
+				7FEF822822D6E9F500B20A94 /* AppDelegate.m in Sources */,
+				7FEF823C22D6EAA700B20A94 /* VcView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,6 +1979,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F91734922D6CF88006CB18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F91734A22D6CF88006CB18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F91734E22D6CF89006CB18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F91734F22D6CF89006CB18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7FCD2BAA22D32495000F6513 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1390,6 +2023,102 @@
 			isa = PBXVariantGroup;
 			children = (
 				7FCD2BCA22D32872000F6513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF819B22D6D7C800B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF819C22D6D7C800B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81A022D6D7C900B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81A122D6D7C900B20A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81B822D6DCD500B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81B922D6DCD500B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81BD22D6DCD500B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81BE22D6DCD500B20A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81D522D6DFE100B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81D622D6DFE100B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81DA22D6DFE100B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81DB22D6DFE100B20A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81F222D6E51700B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81F322D6E51700B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF81F722D6E51800B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF81F822D6E51800B20A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF820F22D6E7FE00B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF821022D6E7FE00B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF821422D6E7FE00B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF821522D6E7FE00B20A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF822C22D6E9F500B20A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF822D22D6E9F500B20A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEF823122D6E9F500B20A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEF823222D6E9F500B20A94 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1829,6 +2558,38 @@
 			};
 			name = Release;
 		};
+		7F91735522D6CF89006CB18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-Quartz2D-下载进度案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-3-Quartz2D-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F91735622D6CF89006CB18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-Quartz2D-下载进度案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-3-Quartz2D-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7FCD2BB522D32496000F6513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1888,6 +2649,198 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF81A622D6D7C900B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14-Quartz2D-饼图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-4-Quartz2D---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF81A722D6D7C900B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "14-Quartz2D-饼图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-4-Quartz2D---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF81C422D6DCD500B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "15-Quartz2D-柱状图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-5-Quartz2D----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF81C522D6DCD500B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "15-Quartz2D-柱状图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-5-Quartz2D----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF81E122D6DFE100B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "16-Quartz2D-绘制文字和图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-6-Quartz2D--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF81E222D6DFE100B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "16-Quartz2D-绘制文字和图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-6-Quartz2D--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF81FE22D6E51800B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "17-CADisPlayLink-下雪动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-7-CADisPlayLink-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF81FF22D6E51800B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "17-CADisPlayLink-下雪动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-7-CADisPlayLink-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF821B22D6E7FE00B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "18-Quartz2D-上下文的状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-8-Quartz2D-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF821C22D6E7FE00B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "18-Quartz2D-上下文的状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-8-Quartz2D-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FEF823822D6E9F500B20A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "19-Quartz2D-形变操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-9-Quartz2D-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FEF823922D6E9F500B20A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "19-Quartz2D-形变操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-9-Quartz2D-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1995,6 +2948,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7F91735422D6CF89006CB18C /* Build configuration list for PBXNativeTarget "13-Quartz2D-下载进度案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F91735522D6CF89006CB18C /* Debug */,
+				7F91735622D6CF89006CB18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FCD2BB722D32496000F6513 /* Build configuration list for PBXNativeTarget "10-手势识别(平移,旋转,缩放)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2009,6 +2971,60 @@
 			buildConfigurations = (
 				7FCD2BD022D32872000F6513 /* Debug */,
 				7FCD2BD122D32872000F6513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF81A822D6D7C900B20A94 /* Build configuration list for PBXNativeTarget "14-Quartz2D-饼图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF81A622D6D7C900B20A94 /* Debug */,
+				7FEF81A722D6D7C900B20A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF81C322D6DCD500B20A94 /* Build configuration list for PBXNativeTarget "15-Quartz2D-柱状图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF81C422D6DCD500B20A94 /* Debug */,
+				7FEF81C522D6DCD500B20A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF81E022D6DFE100B20A94 /* Build configuration list for PBXNativeTarget "16-Quartz2D-绘制文字和图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF81E122D6DFE100B20A94 /* Debug */,
+				7FEF81E222D6DFE100B20A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF81FD22D6E51800B20A94 /* Build configuration list for PBXNativeTarget "17-CADisPlayLink-下雪动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF81FE22D6E51800B20A94 /* Debug */,
+				7FEF81FF22D6E51800B20A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF821A22D6E7FE00B20A94 /* Build configuration list for PBXNativeTarget "18-Quartz2D-上下文的状态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF821B22D6E7FE00B20A94 /* Debug */,
+				7FEF821C22D6E7FE00B20A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF823722D6E9F500B20A94 /* Build configuration list for PBXNativeTarget "19-Quartz2D-形变操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEF823822D6E9F500B20A94 /* Debug */,
+				7FEF823922D6E9F500B20A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
