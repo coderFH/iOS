@@ -29,6 +29,27 @@
 		7F1D7C3022CF1F9D00317C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7C2F22CF1F9D00317C1E /* main.m */; };
 		7F1D984E22D432C00033685F /* DragerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D984D22D432C00033685F /* DragerViewController.m */; };
 		7F1D985122D433660033685F /* FHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D985022D433660033685F /* FHTestViewController.m */; };
+		7F1FEC1622DC12DA00689758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC1522DC12DA00689758 /* AppDelegate.m */; };
+		7F1FEC1922DC12DA00689758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC1822DC12DA00689758 /* ViewController.m */; };
+		7F1FEC1C22DC12DA00689758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC1A22DC12DA00689758 /* Main.storyboard */; };
+		7F1FEC1E22DC12DB00689758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC1D22DC12DB00689758 /* Assets.xcassets */; };
+		7F1FEC2122DC12DB00689758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC1F22DC12DB00689758 /* LaunchScreen.storyboard */; };
+		7F1FEC2422DC12DB00689758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC2322DC12DB00689758 /* main.m */; };
+		7F1FEC2A22DC134100689758 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC2922DC134100689758 /* UIImage+Extension.m */; };
+		7F1FEC3322DC170800689758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC3222DC170800689758 /* AppDelegate.m */; };
+		7F1FEC3622DC170800689758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC3522DC170800689758 /* ViewController.m */; };
+		7F1FEC3922DC170800689758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC3722DC170800689758 /* Main.storyboard */; };
+		7F1FEC3B22DC170900689758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC3A22DC170900689758 /* Assets.xcassets */; };
+		7F1FEC3E22DC170900689758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC3C22DC170900689758 /* LaunchScreen.storyboard */; };
+		7F1FEC4122DC170900689758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC4022DC170900689758 /* main.m */; };
+		7F1FEC4622DC173C00689758 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC4522DC173C00689758 /* timg.jpeg */; };
+		7F1FEC4F22DC188800689758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC4E22DC188800689758 /* AppDelegate.m */; };
+		7F1FEC5222DC188800689758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5122DC188800689758 /* ViewController.m */; };
+		7F1FEC5522DC188800689758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5322DC188800689758 /* Main.storyboard */; };
+		7F1FEC5722DC188900689758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5622DC188900689758 /* Assets.xcassets */; };
+		7F1FEC5A22DC188900689758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5822DC188900689758 /* LaunchScreen.storyboard */; };
+		7F1FEC5D22DC188900689758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5C22DC188900689758 /* main.m */; };
+		7F1FEC6322DC18BB00689758 /* UIImage+ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC6222DC18BB00689758 /* UIImage+ScreenCapture.m */; };
 		7F4FBE0C22D2D890001FC8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */; };
 		7F4FBE0F22D2D890001FC8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0E22D2D890001FC8B0 /* ViewController.m */; };
 		7F4FBE1222D2D890001FC8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FBE1022D2D890001FC8B0 /* Main.storyboard */; };
@@ -194,6 +215,41 @@
 		7F1D984D22D432C00033685F /* DragerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragerViewController.m; sourceTree = "<group>"; };
 		7F1D984F22D433660033685F /* FHTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTestViewController.h; sourceTree = "<group>"; };
 		7F1D985022D433660033685F /* FHTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTestViewController.m; sourceTree = "<group>"; };
+		7F1FEC1222DC12DA00689758 /* 21-Quartz2D-头像切圆+边框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-Quartz2D-头像切圆+边框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1FEC1422DC12DA00689758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F1FEC1522DC12DA00689758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F1FEC1722DC12DA00689758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F1FEC1822DC12DA00689758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F1FEC1B22DC12DA00689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1FEC1D22DC12DB00689758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1FEC2022DC12DB00689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1FEC2222DC12DB00689758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1FEC2322DC12DB00689758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1FEC2822DC134100689758 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		7F1FEC2922DC134100689758 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		7F1FEC2F22DC170800689758 /* 20-Quartz2D-图片加水印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20-Quartz2D-图片加水印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1FEC3122DC170800689758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F1FEC3222DC170800689758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F1FEC3422DC170800689758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F1FEC3522DC170800689758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F1FEC3822DC170800689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1FEC3A22DC170900689758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1FEC3D22DC170900689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1FEC3F22DC170900689758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1FEC4022DC170900689758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1FEC4522DC173C00689758 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		7F1FEC4B22DC188800689758 /* 22-Quartz2D-屏幕截图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22-Quartz2D-屏幕截图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1FEC4D22DC188800689758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F1FEC4E22DC188800689758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F1FEC5022DC188800689758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F1FEC5122DC188800689758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F1FEC5422DC188800689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1FEC5622DC188900689758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1FEC5922DC188900689758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1FEC5B22DC188900689758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1FEC5C22DC188900689758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1FEC6122DC18BB00689758 /* UIImage+ScreenCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenCapture.h"; sourceTree = "<group>"; };
+		7F1FEC6222DC18BB00689758 /* UIImage+ScreenCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenCapture.m"; sourceTree = "<group>"; };
 		7F4FBE0822D2D890001FC8B0 /* 04-事件传递演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-事件传递演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4FBE0A22D2D890001FC8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -434,6 +490,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F1FEC0F22DC12DA00689758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC2C22DC170800689758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC4822DC188800689758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F4FBE0522D2D890001FC8B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,6 +648,9 @@
 				7FEF81EB22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */,
 				7FEF820822D6E7FE00B20A94 /* 18-Quartz2D-上下文的状态 */,
 				7FEF822522D6E9F500B20A94 /* 19-Quartz2D-形变操作 */,
+				7F1FEC3022DC170800689758 /* 20-Quartz2D-图片加水印 */,
+				7F1FEC1322DC12DA00689758 /* 21-Quartz2D-头像切圆+边框 */,
+				7F1FEC4C22DC188800689758 /* 22-Quartz2D-屏幕截图 */,
 				7F1D7BC422CEF6C300317C1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -597,6 +677,9 @@
 				7FEF81EA22D6E51700B20A94 /* 17-CADisPlayLink-下雪动画.app */,
 				7FEF820722D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态.app */,
 				7FEF822422D6E9F400B20A94 /* 19-Quartz2D-形变操作.app */,
+				7F1FEC1222DC12DA00689758 /* 21-Quartz2D-头像切圆+边框.app */,
+				7F1FEC2F22DC170800689758 /* 20-Quartz2D-图片加水印.app */,
+				7F1FEC4B22DC188800689758 /* 22-Quartz2D-屏幕截图.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -651,6 +734,59 @@
 				7F1D7C2F22CF1F9D00317C1E /* main.m */,
 			);
 			path = "03-transform";
+			sourceTree = "<group>";
+		};
+		7F1FEC1322DC12DA00689758 /* 21-Quartz2D-头像切圆+边框 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FEC1422DC12DA00689758 /* AppDelegate.h */,
+				7F1FEC1522DC12DA00689758 /* AppDelegate.m */,
+				7F1FEC2822DC134100689758 /* UIImage+Extension.h */,
+				7F1FEC2922DC134100689758 /* UIImage+Extension.m */,
+				7F1FEC1722DC12DA00689758 /* ViewController.h */,
+				7F1FEC1822DC12DA00689758 /* ViewController.m */,
+				7F1FEC1A22DC12DA00689758 /* Main.storyboard */,
+				7F1FEC1D22DC12DB00689758 /* Assets.xcassets */,
+				7F1FEC1F22DC12DB00689758 /* LaunchScreen.storyboard */,
+				7F1FEC2222DC12DB00689758 /* Info.plist */,
+				7F1FEC2322DC12DB00689758 /* main.m */,
+			);
+			path = "21-Quartz2D-头像切圆+边框";
+			sourceTree = "<group>";
+		};
+		7F1FEC3022DC170800689758 /* 20-Quartz2D-图片加水印 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FEC4522DC173C00689758 /* timg.jpeg */,
+				7F1FEC3122DC170800689758 /* AppDelegate.h */,
+				7F1FEC3222DC170800689758 /* AppDelegate.m */,
+				7F1FEC3422DC170800689758 /* ViewController.h */,
+				7F1FEC3522DC170800689758 /* ViewController.m */,
+				7F1FEC3722DC170800689758 /* Main.storyboard */,
+				7F1FEC3A22DC170900689758 /* Assets.xcassets */,
+				7F1FEC3C22DC170900689758 /* LaunchScreen.storyboard */,
+				7F1FEC3F22DC170900689758 /* Info.plist */,
+				7F1FEC4022DC170900689758 /* main.m */,
+			);
+			path = "20-Quartz2D-图片加水印";
+			sourceTree = "<group>";
+		};
+		7F1FEC4C22DC188800689758 /* 22-Quartz2D-屏幕截图 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FEC4D22DC188800689758 /* AppDelegate.h */,
+				7F1FEC4E22DC188800689758 /* AppDelegate.m */,
+				7F1FEC6122DC18BB00689758 /* UIImage+ScreenCapture.h */,
+				7F1FEC6222DC18BB00689758 /* UIImage+ScreenCapture.m */,
+				7F1FEC5022DC188800689758 /* ViewController.h */,
+				7F1FEC5122DC188800689758 /* ViewController.m */,
+				7F1FEC5322DC188800689758 /* Main.storyboard */,
+				7F1FEC5622DC188900689758 /* Assets.xcassets */,
+				7F1FEC5822DC188900689758 /* LaunchScreen.storyboard */,
+				7F1FEC5B22DC188900689758 /* Info.plist */,
+				7F1FEC5C22DC188900689758 /* main.m */,
+			);
+			path = "22-Quartz2D-屏幕截图";
 			sourceTree = "<group>";
 		};
 		7F4FBE0922D2D890001FC8B0 /* 04-事件传递演示 */ = {
@@ -1023,6 +1159,57 @@
 			productReference = 7F1D7C1E22CF1F9B00317C1E /* 03-transform.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7F1FEC1122DC12DA00689758 /* 21-Quartz2D-头像切圆+边框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1FEC2522DC12DB00689758 /* Build configuration list for PBXNativeTarget "21-Quartz2D-头像切圆+边框" */;
+			buildPhases = (
+				7F1FEC0E22DC12DA00689758 /* Sources */,
+				7F1FEC0F22DC12DA00689758 /* Frameworks */,
+				7F1FEC1022DC12DA00689758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21-Quartz2D-头像切圆+边框";
+			productName = "21-Quartz2D-头像切圆+边框";
+			productReference = 7F1FEC1222DC12DA00689758 /* 21-Quartz2D-头像切圆+边框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F1FEC2E22DC170800689758 /* 20-Quartz2D-图片加水印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1FEC4222DC170900689758 /* Build configuration list for PBXNativeTarget "20-Quartz2D-图片加水印" */;
+			buildPhases = (
+				7F1FEC2B22DC170800689758 /* Sources */,
+				7F1FEC2C22DC170800689758 /* Frameworks */,
+				7F1FEC2D22DC170800689758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20-Quartz2D-图片加水印";
+			productName = "20-Quartz2D-图片加水印";
+			productReference = 7F1FEC2F22DC170800689758 /* 20-Quartz2D-图片加水印.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F1FEC4A22DC188800689758 /* 22-Quartz2D-屏幕截图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1FEC5E22DC188900689758 /* Build configuration list for PBXNativeTarget "22-Quartz2D-屏幕截图" */;
+			buildPhases = (
+				7F1FEC4722DC188800689758 /* Sources */,
+				7F1FEC4822DC188800689758 /* Frameworks */,
+				7F1FEC4922DC188800689758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "22-Quartz2D-屏幕截图";
+			productName = "22-Quartz2D-屏幕截图";
+			productReference = 7F1FEC4B22DC188800689758 /* 22-Quartz2D-屏幕截图.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7F4FBE0722D2D890001FC8B0 /* 04-事件传递演示 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4FBE1B22D2D892001FC8B0 /* Build configuration list for PBXNativeTarget "04-事件传递演示" */;
@@ -1314,6 +1501,15 @@
 					7F1D7C1D22CF1F9B00317C1E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F1FEC1122DC12DA00689758 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F1FEC2E22DC170800689758 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F1FEC4A22DC188800689758 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7F4FBE0722D2D890001FC8B0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1396,6 +1592,9 @@
 				7FEF81E922D6E51700B20A94 /* 17-CADisPlayLink-下雪动画 */,
 				7FEF820622D6E7FD00B20A94 /* 18-Quartz2D-上下文的状态 */,
 				7FEF822322D6E9F400B20A94 /* 19-Quartz2D-形变操作 */,
+				7F1FEC2E22DC170800689758 /* 20-Quartz2D-图片加水印 */,
+				7F1FEC1122DC12DA00689758 /* 21-Quartz2D-头像切圆+边框 */,
+				7F1FEC4A22DC188800689758 /* 22-Quartz2D-屏幕截图 */,
 			);
 		};
 /* End PBXProject section */
@@ -1428,6 +1627,37 @@
 				7F1D7C2D22CF1F9D00317C1E /* LaunchScreen.storyboard in Resources */,
 				7F1D7C2A22CF1F9D00317C1E /* Assets.xcassets in Resources */,
 				7F1D7C2822CF1F9C00317C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC1022DC12DA00689758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC2122DC12DB00689758 /* LaunchScreen.storyboard in Resources */,
+				7F1FEC1E22DC12DB00689758 /* Assets.xcassets in Resources */,
+				7F1FEC1C22DC12DA00689758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC2D22DC170800689758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC3E22DC170900689758 /* LaunchScreen.storyboard in Resources */,
+				7F1FEC3B22DC170900689758 /* Assets.xcassets in Resources */,
+				7F1FEC4622DC173C00689758 /* timg.jpeg in Resources */,
+				7F1FEC3922DC170800689758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC4922DC188800689758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC5A22DC188900689758 /* LaunchScreen.storyboard in Resources */,
+				7F1FEC5722DC188900689758 /* Assets.xcassets in Resources */,
+				7F1FEC5522DC188800689758 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1623,6 +1853,38 @@
 				7F1D7C2522CF1F9B00317C1E /* ViewController.m in Sources */,
 				7F1D7C3022CF1F9D00317C1E /* main.m in Sources */,
 				7F1D7C2222CF1F9B00317C1E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC0E22DC12DA00689758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC1922DC12DA00689758 /* ViewController.m in Sources */,
+				7F1FEC2422DC12DB00689758 /* main.m in Sources */,
+				7F1FEC1622DC12DA00689758 /* AppDelegate.m in Sources */,
+				7F1FEC2A22DC134100689758 /* UIImage+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC2B22DC170800689758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC3622DC170800689758 /* ViewController.m in Sources */,
+				7F1FEC4122DC170900689758 /* main.m in Sources */,
+				7F1FEC3322DC170800689758 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1FEC4722DC188800689758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1FEC5222DC188800689758 /* ViewController.m in Sources */,
+				7F1FEC5D22DC188900689758 /* main.m in Sources */,
+				7F1FEC6322DC18BB00689758 /* UIImage+ScreenCapture.m in Sources */,
+				7F1FEC4F22DC188800689758 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1863,6 +2125,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F1D7C2C22CF1F9D00317C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC1A22DC12DA00689758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC1B22DC12DA00689758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC1F22DC12DB00689758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC2022DC12DB00689758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC3722DC170800689758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC3822DC170800689758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC3C22DC170900689758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC3D22DC170900689758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC5322DC188800689758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC5422DC188800689758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1FEC5822DC188900689758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1FEC5922DC188900689758 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2329,6 +2639,102 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-3-transform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F1FEC2622DC12DB00689758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "21-Quartz2D-头像切圆+边框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-1-Quartz2D--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1FEC2722DC12DB00689758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "21-Quartz2D-头像切圆+边框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-1-Quartz2D--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F1FEC4322DC170900689758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20-Quartz2D-图片加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-0-Quartz2D------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1FEC4422DC170900689758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20-Quartz2D-图片加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-0-Quartz2D------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F1FEC5F22DC188900689758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "22-Quartz2D-屏幕截图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-2-Quartz2D-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1FEC6022DC188900689758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "22-Quartz2D-屏幕截图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-2-Quartz2D-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2881,6 +3287,33 @@
 			buildConfigurations = (
 				7F1D7C3222CF1F9D00317C1E /* Debug */,
 				7F1D7C3322CF1F9D00317C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1FEC2522DC12DB00689758 /* Build configuration list for PBXNativeTarget "21-Quartz2D-头像切圆+边框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1FEC2622DC12DB00689758 /* Debug */,
+				7F1FEC2722DC12DB00689758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1FEC4222DC170900689758 /* Build configuration list for PBXNativeTarget "20-Quartz2D-图片加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1FEC4322DC170900689758 /* Debug */,
+				7F1FEC4422DC170900689758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1FEC5E22DC188900689758 /* Build configuration list for PBXNativeTarget "22-Quartz2D-屏幕截图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1FEC5F22DC188900689758 /* Debug */,
+				7F1FEC6022DC188900689758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
