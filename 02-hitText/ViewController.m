@@ -19,7 +19,7 @@
     [super viewDidLoad];
     YellowView *test = [[YellowView alloc] init];
     test.frame = CGRectMake(10, 100, 50, 50);
-    test.backgroundColor = [UIColor redColor];
+    test.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:test];
 }
 
