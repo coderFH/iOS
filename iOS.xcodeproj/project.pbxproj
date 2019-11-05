@@ -50,6 +50,13 @@
 		7F1FEC5A22DC188900689758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5822DC188900689758 /* LaunchScreen.storyboard */; };
 		7F1FEC5D22DC188900689758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC5C22DC188900689758 /* main.m */; };
 		7F1FEC6322DC18BB00689758 /* UIImage+ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FEC6222DC18BB00689758 /* UIImage+ScreenCapture.m */; };
+		7F4A932223711AF300CE30CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A932123711AF300CE30CD /* AppDelegate.m */; };
+		7F4A932523711AF300CE30CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A932423711AF300CE30CD /* SceneDelegate.m */; };
+		7F4A932823711AF300CE30CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A932723711AF300CE30CD /* ViewController.m */; };
+		7F4A932B23711AF300CE30CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A932923711AF300CE30CD /* Main.storyboard */; };
+		7F4A932D23711AF500CE30CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A932C23711AF500CE30CD /* Assets.xcassets */; };
+		7F4A933023711AF500CE30CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A932E23711AF500CE30CD /* LaunchScreen.storyboard */; };
+		7F4A933323711AF500CE30CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A933223711AF500CE30CD /* main.m */; };
 		7F4FBE0C22D2D890001FC8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */; };
 		7F4FBE0F22D2D890001FC8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FBE0E22D2D890001FC8B0 /* ViewController.m */; };
 		7F4FBE1222D2D890001FC8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FBE1022D2D890001FC8B0 /* Main.storyboard */; };
@@ -250,6 +257,18 @@
 		7F1FEC5C22DC188900689758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F1FEC6122DC18BB00689758 /* UIImage+ScreenCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenCapture.h"; sourceTree = "<group>"; };
 		7F1FEC6222DC18BB00689758 /* UIImage+ScreenCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenCapture.m"; sourceTree = "<group>"; };
+		7F4A931E23711AF300CE30CD /* NSURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A932023711AF300CE30CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4A932123711AF300CE30CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4A932323711AF300CE30CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F4A932423711AF300CE30CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F4A932623711AF300CE30CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F4A932723711AF300CE30CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F4A932A23711AF300CE30CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4A932C23711AF500CE30CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A932F23711AF500CE30CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A933123711AF500CE30CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A933223711AF500CE30CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F4FBE0822D2D890001FC8B0 /* 04-事件传递演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-事件传递演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4FBE0A22D2D890001FC8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4FBE0B22D2D890001FC8B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -511,6 +530,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F4A931B23711AF300CE30CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F4FBE0522D2D890001FC8B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -629,6 +655,7 @@
 		7F1D7BBA22CEF6C300317C1E = {
 			isa = PBXGroup;
 			children = (
+				7F4A931F23711AF300CE30CD /* NSURLSession */,
 				7F1D7BE122CEF6FB00317C1E /* 01-UIView常见的触摸方法 */,
 				7F1D7BFE22CEFFC500317C1E /* 02-hitText */,
 				7F1D7C1F22CF1F9B00317C1E /* 03-transform */,
@@ -680,6 +707,7 @@
 				7F1FEC1222DC12DA00689758 /* 21-Quartz2D-头像切圆+边框.app */,
 				7F1FEC2F22DC170800689758 /* 20-Quartz2D-图片加水印.app */,
 				7F1FEC4B22DC188800689758 /* 22-Quartz2D-屏幕截图.app */,
+				7F4A931E23711AF300CE30CD /* NSURLSession.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -787,6 +815,24 @@
 				7F1FEC5C22DC188900689758 /* main.m */,
 			);
 			path = "22-Quartz2D-屏幕截图";
+			sourceTree = "<group>";
+		};
+		7F4A931F23711AF300CE30CD /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A932023711AF300CE30CD /* AppDelegate.h */,
+				7F4A932123711AF300CE30CD /* AppDelegate.m */,
+				7F4A932323711AF300CE30CD /* SceneDelegate.h */,
+				7F4A932423711AF300CE30CD /* SceneDelegate.m */,
+				7F4A932623711AF300CE30CD /* ViewController.h */,
+				7F4A932723711AF300CE30CD /* ViewController.m */,
+				7F4A932923711AF300CE30CD /* Main.storyboard */,
+				7F4A932C23711AF500CE30CD /* Assets.xcassets */,
+				7F4A932E23711AF500CE30CD /* LaunchScreen.storyboard */,
+				7F4A933123711AF500CE30CD /* Info.plist */,
+				7F4A933223711AF500CE30CD /* main.m */,
+			);
+			path = NSURLSession;
 			sourceTree = "<group>";
 		};
 		7F4FBE0922D2D890001FC8B0 /* 04-事件传递演示 */ = {
@@ -1210,6 +1256,23 @@
 			productReference = 7F1FEC4B22DC188800689758 /* 22-Quartz2D-屏幕截图.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7F4A931D23711AF300CE30CD /* NSURLSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A933623711AF500CE30CD /* Build configuration list for PBXNativeTarget "NSURLSession" */;
+			buildPhases = (
+				7F4A931A23711AF300CE30CD /* Sources */,
+				7F4A931B23711AF300CE30CD /* Frameworks */,
+				7F4A931C23711AF300CE30CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSURLSession;
+			productName = NSURLSession;
+			productReference = 7F4A931E23711AF300CE30CD /* NSURLSession.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7F4FBE0722D2D890001FC8B0 /* 04-事件传递演示 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4FBE1B22D2D892001FC8B0 /* Build configuration list for PBXNativeTarget "04-事件传递演示" */;
@@ -1510,6 +1573,9 @@
 					7F1FEC4A22DC188800689758 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F4A931D23711AF300CE30CD = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					7F4FBE0722D2D890001FC8B0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1595,6 +1661,7 @@
 				7F1FEC2E22DC170800689758 /* 20-Quartz2D-图片加水印 */,
 				7F1FEC1122DC12DA00689758 /* 21-Quartz2D-头像切圆+边框 */,
 				7F1FEC4A22DC188800689758 /* 22-Quartz2D-屏幕截图 */,
+				7F4A931D23711AF300CE30CD /* NSURLSession */,
 			);
 		};
 /* End PBXProject section */
@@ -1658,6 +1725,16 @@
 				7F1FEC5A22DC188900689758 /* LaunchScreen.storyboard in Resources */,
 				7F1FEC5722DC188900689758 /* Assets.xcassets in Resources */,
 				7F1FEC5522DC188800689758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A931C23711AF300CE30CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A933023711AF500CE30CD /* LaunchScreen.storyboard in Resources */,
+				7F4A932D23711AF500CE30CD /* Assets.xcassets in Resources */,
+				7F4A932B23711AF300CE30CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1885,6 +1962,17 @@
 				7F1FEC5D22DC188900689758 /* main.m in Sources */,
 				7F1FEC6322DC18BB00689758 /* UIImage+ScreenCapture.m in Sources */,
 				7F1FEC4F22DC188800689758 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A931A23711AF300CE30CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A932823711AF300CE30CD /* ViewController.m in Sources */,
+				7F4A932223711AF300CE30CD /* AppDelegate.m in Sources */,
+				7F4A933323711AF500CE30CD /* main.m in Sources */,
+				7F4A932523711AF300CE30CD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2173,6 +2261,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F1FEC5922DC188900689758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A932923711AF300CE30CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A932A23711AF300CE30CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A932E23711AF500CE30CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A932F23711AF500CE30CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2735,6 +2839,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dongyintiyu.-2-Quartz2D-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F4A933423711AF500CE30CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyin.NSURLSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A933523711AF500CE30CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongyin.NSURLSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3314,6 +3452,15 @@
 			buildConfigurations = (
 				7F1FEC5F22DC188900689758 /* Debug */,
 				7F1FEC6022DC188900689758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A933623711AF500CE30CD /* Build configuration list for PBXNativeTarget "NSURLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A933423711AF500CE30CD /* Debug */,
+				7F4A933523711AF500CE30CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
